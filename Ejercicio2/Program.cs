@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿int x = 1;
+x = 50;
+while (x <= 100)
+{
+    Console.WriteLine("{0}-", x);
+    x++;
+}
+Console.WriteLine("Fin de loop");
